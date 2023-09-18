@@ -1,0 +1,29 @@
+m1 = 3
+c1 = 3
+m2 = 0
+c2 = 0
+ch = 0
+print(m1,m2,c1,c2)
+
+print("Welcome to the Game")
+print("Missionary = 3 and Canibals = 3 in Bank1")
+print("You have to shift the missionary and Canibals in Bank 2")
+print("Initially in Bank 2 => Missionary = 0 and Canibals = 0")
+print("You can use the following rules.")
+print("Rule 1 : Shift 1 missionary and 1 canibal to the Bank 2")
+print("Rule 2 : Shift 1 missionary to the Bank 1")
+print("Rule 3 : Shift 2 missionary to the Bank 2")
+print("Rule 4 : Shift 1 canibal to the Bank 1")
+print("Rule 5 : Shift 2 canibal to the Bank 2")
+
+
+while((m2 != 3) and (c2 != 3)):
+    print("Enter the rule ")
+    ch = input()
+    if ch == 1:
+        m1 = m1 - 1
+        m2 = m2 + 1
+        c1 = c1 - 1
+        c2 = c2 + 1
+print(m1,m2,c1,c2)
+
