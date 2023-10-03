@@ -39,7 +39,7 @@ label={
 }
 
 visited=set()
-res=['Q']
+res=['P' , 'Q']
 stack=[]
 def dfs(visited,graph,node):
   visited.add(node)
